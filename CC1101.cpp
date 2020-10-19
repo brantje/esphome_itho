@@ -10,6 +10,7 @@ CC1101::CC1101()
 	SPI.begin();
 #ifdef ESP8266
 	pinMode(SS, OUTPUT);
+#endif
 #ifdef ES32
 	pinMode(SS, OUTPUT);
 #endif
