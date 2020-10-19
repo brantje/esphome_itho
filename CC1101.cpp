@@ -11,7 +11,7 @@ CC1101::CC1101()
 #ifdef ESP8266
 	pinMode(SS, OUTPUT);
 #endif
-#ifdef ES32
+#ifdef ESP32
 	pinMode(SS, OUTPUT);
 #endif
 } //CC1101
