@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include "CC1101.h"
 #include "IthoPacket.h"
-
+#include "Arduino.h"
 
 //pa table settings
 const uint8_t ithoPaTableSend[8] = {0x6F, 0x26, 0x2E, 0x8C, 0x87, 0xCD, 0xC7, 0xC0};
